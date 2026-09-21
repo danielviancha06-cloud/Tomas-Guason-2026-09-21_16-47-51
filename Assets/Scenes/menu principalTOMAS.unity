@@ -1472,7 +1472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   optionsMenu: {fileID: 1193877742}
-  mainMenu: {fileID: 798691334}
+  mainMenu: {fileID: 1193877742}
 --- !u!1 &1525369560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1477277566}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: OpenOpyionsPanel
+        m_MethodName: OpenMainMenuPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
