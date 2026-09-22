@@ -1072,7 +1072,7 @@ Transform:
   m_GameObject: {fileID: 1193877742}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 137.2889, y: -98.36297, z: 0}
+  m_LocalPosition: {x: 137.28888, y: -98.36297, z: 0}
   m_LocalScale: {x: 1.5779092, y: 1.5779092, z: 1.5779092}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1472,7 +1472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   optionsMenu: {fileID: 1193877742}
-  mainMenu: {fileID: 1193877742}
+  mainMenu: {fileID: 798691334}
 --- !u!1 &1525369560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,8 +1507,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000008818, y: -1.592102}
-  m_SizeDelta: {x: 800, y: 534.94}
+  m_AnchoredPosition: {x: 0, y: -6.6321}
+  m_SizeDelta: {x: 800, y: 545.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1525369562
 MonoBehaviour:
