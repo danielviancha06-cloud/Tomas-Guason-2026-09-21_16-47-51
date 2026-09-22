@@ -16,4 +16,5 @@ public class Camara : MonoBehaviour
 
         transform.position = smoothedPosition;
     }
+
 }
