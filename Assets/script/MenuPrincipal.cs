@@ -19,6 +19,7 @@ public class MainMenu : MonoBehaviour
     {
         mainMenu.SetActive(true);
         mainMenu.SetActive(false);
+
     }
 
     public void QuitGame()

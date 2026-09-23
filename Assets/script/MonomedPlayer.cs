@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class MonomedPlayer : MonoBehaviour
 {
+    public bool isActive = false;
 
     [SerializeField] private InputActionAsset inputActionAseet;
 
@@ -41,8 +42,13 @@ public class MonomedPlayer : MonoBehaviour
 
     private void Update()
     {
-        move = moveAction.ReadValue<Vector2>();
-        Movement();
+        if (isActive)
+        {
+            move = moveAction.ReadValue<Vector2>();
+            Movement();
+        }
+
+
 
     }
 
