@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 using System.Collections.Generic;
 public class PlayersController : MonoBehaviour
 {
+    [SerializeField]
+    private CameraFollow cameraFollow;
+
     [SerializeField] private InputActionAsset inputActionAseet;
     private InputAction inputAction;
 
@@ -27,6 +30,8 @@ public class PlayersController : MonoBehaviour
 
         inputAction = inputActionAseet.FindAction("interact");
         players[currPlayer].isActive = true;
+
+        cameraFollow.target = players[currPlayer].transform;
     }
 
     private void Update()
@@ -47,6 +52,7 @@ public class PlayersController : MonoBehaviour
 
 
             players[currPlayer].isActive = true;
+            cameraFollow.target = players[currPlayer].transform;
         }
     }
 }
