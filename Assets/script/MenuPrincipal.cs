@@ -11,15 +11,15 @@ public class MainMenu : MonoBehaviour
 
     {
         mainMenu.SetActive(false);
-        mainMenu.SetActive(true);
+        optionsMenu.SetActive(true);
     }
 
     public void OpenMainMenuPanel()
 
     {
-        mainMenu.SetActive(true);
-        mainMenu.SetActive(false);
 
+        optionsMenu.SetActive(false);
+        mainMenu.SetActive(true);
     }
 
     public void QuitGame()

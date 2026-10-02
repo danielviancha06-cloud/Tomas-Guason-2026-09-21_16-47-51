@@ -20,12 +20,12 @@ public class MonomedPlayer : MonoBehaviour
 
     private void OnEnable()
     {
-        inputActionAseet.FindActionMap("Pleyer").Enable();
+        inputActionAseet.FindActionMap("Player").Enable();
     }
 
     private void OnDisable()
     {
-        inputActionAseet.FindActionMap("Pleyer").Enable();
+        inputActionAseet.FindActionMap("Player").Enable();
     }
 
 

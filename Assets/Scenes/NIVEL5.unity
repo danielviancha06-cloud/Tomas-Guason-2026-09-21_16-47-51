@@ -5715,7 +5715,7 @@ Transform:
   m_GameObject: {fileID: 796086623}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0017262892, w: 0.99999857}
-  m_LocalPosition: {x: 13.76, y: 4.23, z: 0}
+  m_LocalPosition: {x: 14.18, y: 4.29, z: 0}
   m_LocalScale: {x: 0.6691508, y: 0.20043392, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9802,7 +9802,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -10187,7 +10187,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12429,8 +12429,8 @@ Transform:
   m_GameObject: {fileID: 1597019823}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7040748, y: 0.71011645, z: -0.0025966426, w: 0.002574549}
-  m_LocalPosition: {x: 14.915452, y: -2.2145464, z: -0.0193}
-  m_LocalScale: {x: 0.33170438, y: 2.2805898, z: 1.0000271}
+  m_LocalPosition: {x: 13.5157, y: -2.2223, z: -0.0273}
+  m_LocalScale: {x: 0.34036812, y: 1.9841846, z: 1.0000271}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 82054467}
@@ -14146,8 +14146,8 @@ Transform:
   m_GameObject: {fileID: 1799399391}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.55, y: 4.32, z: 0}
-  m_LocalScale: {x: 3.1601393, y: 3.184167, z: 1}
+  m_LocalPosition: {x: 2.3, y: 3.5, z: 0}
+  m_LocalScale: {x: 3.5065517, y: 3.7643209, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -18369,7 +18369,7 @@ MonoBehaviour:
   inputActionAseet: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   Rigidbody2D: {fileID: 2131472892}
   move: {x: 0, y: 0}
-  speed: 6
+  speed: 9
 --- !u!50 &2131472892
 Rigidbody2D:
   serializedVersion: 5
@@ -18629,12 +18629,12 @@ SceneRoots:
   m_Roots:
   - {fileID: 1279807980}
   - {fileID: 971512903}
+  - {fileID: 1152222852}
   - {fileID: 2131472895}
   - {fileID: 533290042}
   - {fileID: 20775822}
   - {fileID: 1360788822}
   - {fileID: 1279626479}
-  - {fileID: 1152222852}
   - {fileID: 112964762}
   - {fileID: 112029988}
   - {fileID: 491912249}
